@@ -1,0 +1,30 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #0b0b0b;
+  color: #e0e0e0;
+  text-align: center;
+}
+header {
+  background: linear-gradient(to bottom, #111, #333);
+  padding: 50px 0;
+}
+h1 {
+  font-size: 2.5em;
+  color: #f5d36a;
+}
+h2 {
+  color: #f5d36a;
+}
+section {
+  margin: 40px 0;
+}
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+}
+footer {
+  background: #111;
+  padding: 20px 0;
+  color: #aaa;
+}
