@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pairar — Entre o caos e o silêncio</title>
+  <meta name="description" content="Pairar é presença. Uma escola de neutralidade prática para líderes, criadores e atletas do invisível.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <img class="mark" src="/logo.svg" alt="Marca Pairar" />
+      <span>PAIRAR</span>
+    </div>
+    <nav>
+      <a href="#manifesto">Manifesto</a>
+      <a href="#oferta">Oferta</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="sun"></div>
+      <div class="haze"></div>
+      <div class="copy">
+        <h1>Entre o caos e o silêncio</h1>
+        <p>Pairar é sustentar presença. Não reagir. <br>Colapsar o necessário, no tempo certo.</p>
+        <a class="cta" href="#contato">Quero receber o convite</a>
+        <p class="micro">Primeira turma fechada • Lista de espera aberta</p>
+      </div>
+    </section>
+
+    <section id="manifesto" class="container manifesto">
+      <h2>Neutralidade Divina, aplicada</h2>
+      <p>Deus não reage — Ele sustenta. Quando a fé se manifesta, não é Ele que muda; somos nós que nos sintonizamos. 
+      Trazemos essa sabedoria para o cotidiano: decisões limpas, execução precisa, silêncio que ressoa.</p>
+      <ul class="pillars">
+        <li><strong>Clareza</strong><span>Arquétipos, sombra e propósito integrados.</span></li>
+        <li><strong>Disciplina</strong><span>Rotina mínima, impacto máximo.</span></li>
+        <li><strong>Estratégia</strong><span>Mapa de terreno, alavancas e timing.</span></li>
+      </ul>
+    </section>
+
+    <section id="oferta" class="offer container">
+      <h2>O que vem primeiro</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Sinal</h3>
+          <p>Conteúdo essencial (Instagram e e-mail) para sintonizar o campo: uma mensagem por semana.</p>
+        </article>
+        <article class="card">
+          <h3>Vetor</h3>
+          <p>Mentoria piloto para 12 pessoas. 8 semanas. Método: Atenção, Respiração, Ação.</p>
+        </article>
+        <article class="card">
+          <h3>Atlas 3I</h3>
+          <p>Instrumentos de Inteligência Integrada: decisões, narrativa e indicadores em um painel vivo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="container contact">
+      <h2>Lista de espera</h2>
+      <form name="pairar-form" method="post" data-vercel-handle>
+        <label>
+          <span>Nome</span>
+          <input required type="text" name="name" placeholder="Seu nome">
+        </label>
+        <label>
+          <span>E‑mail</span>
+          <input required type="email" name="email" placeholder="voce@email.com">
+        </label>
+        <label>
+          <span>Mensagem (opcional)</span>
+          <textarea name="msg" rows="4" placeholder="Como o Pairar pode te servir?"></textarea>
+        </label>
+        <button type="submit">Entrar na lista</button>
+        <p class="micro">Prometemos silêncio: sem spam, só sinal.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Pairar. Entre o caos e o silêncio.</p>
+  </footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
